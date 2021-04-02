@@ -1,34 +1,33 @@
 package nl.novi.javaprogrammeren.overerving;
 
-public class WildAnimal {
-    private String name;
+public class WildAnimal extends Animal {
     private String nameOfCage;
-    private String sex;
     private String lastDinner;
     private String countryOfBirth;
+    private int howManyKids;
+    private int howManyStripes;
 
-    public String getName () {
-        return name;
+    public WildAnimal (String name, String sex, String breed, String countryOfBirth, String howManyKids, String lastDinner, String nameOfCage) {}
+
+    @Override
+    public void moving() {
+        System.out.println("Ik beweeg nu 0.5m");
     }
 
-    public void setName (String newName) {
-        this.name = newName;
-    }
+    public int getHowManyKids (int newHowManyKids) {return howManyKids;}
 
-    public String getNameOfCage () {
+    public void setHowManyKids (int newHowManyKids) { this.howManyKids = newHowManyKids;}
+
+    public int getHowManyStripes (int newHowManyStripes) {return howManyStripes;}
+
+    public void setHowManyStripes (int newHowManyStripes) { this.howManyStripes = newHowManyStripes;}
+
+    public String getNameOfCage(String newNameOfCage) {
         return nameOfCage;
     }
 
     public void setNameOfCage (String newNameOfCage) {
-        this.name = newNameOfCage;
-    }
-
-    public String getSex () {
-        return sex;
-    }
-
-    public void setSex (String newSex) {
-        this.name = newSex;
+        this.nameOfCage = newNameOfCage;
     }
 
     public String getLastDinner () {
@@ -36,16 +35,14 @@ public class WildAnimal {
     }
 
     public void setLastDinner (String newLastDinner) {
-        this.name = newLastDinner;
+        this.lastDinner = newLastDinner;
     }
+
     public String getCountryOfBirth () {
         return countryOfBirth;
     }
 
     public void setCountryOfBirth (String newCountryOfBirth) {
-        this.name = newCountryOfBirth;
+        this.countryOfBirth = newCountryOfBirth;
     }
-
-
-
 }

@@ -1,5 +1,6 @@
 package nl.novi.javaprogrammeren;
 
+import nl.novi.javaprogrammeren.overerving.Animal;
 import nl.novi.javaprogrammeren.overerving.TameAnimal;
 import nl.novi.javaprogrammeren.overerving.WildAnimal;
 
@@ -60,8 +61,11 @@ public class Main {
 
     public static void main (String[] args) {
 
-        WildAnimal lion = new WildAnimal();
-        TameAnimal cat = new TameAnimal();
+        WildAnimal lion = new WildAnimal("lion", "Male", "Hunter", "Netherlands", "4", "Pancakes", "Hok3");
+
+        System.out.println(lion);
+
+
 
 
     }
