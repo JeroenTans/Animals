@@ -1,5 +1,8 @@
 package nl.novi.javaprogrammeren;
 
+import nl.novi.javaprogrammeren.overerving.TameAnimal;
+import nl.novi.javaprogrammeren.overerving.WildAnimal;
+
 public class Main {
 
     // LET OP: het eerste gedeelte is hetzelfde als de klassikale opdracht.
@@ -56,6 +59,10 @@ public class Main {
      */
 
     public static void main (String[] args) {
+
+        WildAnimal lion = new WildAnimal();
+        TameAnimal cat = new TameAnimal();
+
 
     }
 }

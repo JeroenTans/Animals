@@ -1,2 +1,4 @@
-package nl.novi.javaprogrammeren.overerving;public class Wolf {
+package nl.novi.javaprogrammeren.overerving;
+
+public class Wolf extends WildAnimal {
 }

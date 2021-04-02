@@ -1,2 +1,4 @@
-package nl.novi.javaprogrammeren.overerving;public class Lion {
+package nl.novi.javaprogrammeren.overerving;
+
+public class Lion extends WildAnimal {
 }

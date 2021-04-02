@@ -1,2 +1,4 @@
-package nl.novi.javaprogrammeren.overerving;public class Cat {
+package nl.novi.javaprogrammeren.overerving;
+
+public class Cat extends TameAnimal {
 }
